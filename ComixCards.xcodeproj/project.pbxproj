@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		F25E43D32492262300157CDE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E43D22492262300157CDE /* NetworkService.swift */; };
 		F25E43D62492C3E300157CDE /* MarvelHeroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E43D52492C3E300157CDE /* MarvelHeroPresenter.swift */; };
-		F25E43DB2492C8D300157CDE /* MarvelHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E43D92492C8D300157CDE /* MarvelHeroViewController.swift */; };
-		F25E43DC2492C8D300157CDE /* MarveoHeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25E43DA2492C8D300157CDE /* MarveoHeroViewController.xib */; };
 		F25E43DF2492D59400157CDE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E43DE2492D59400157CDE /* Router.swift */; };
+		F268BE9D24978A7B00680004 /* MarvelHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268BE9B24978A7B00680004 /* MarvelHeroViewController.swift */; };
+		F268BE9E24978A7B00680004 /* MarvelHeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F268BE9C24978A7B00680004 /* MarvelHeroViewController.xib */; };
 		F2A568EE248E881E00779988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A568ED248E881E00779988 /* AppDelegate.swift */; };
 		F2A568F0248E881E00779988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A568EF248E881E00779988 /* SceneDelegate.swift */; };
 		F2A568F2248E881E00779988 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A568F1248E881E00779988 /* MainViewController.swift */; };
@@ -38,9 +38,9 @@
 /* Begin PBXFileReference section */
 		F25E43D22492262300157CDE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F25E43D52492C3E300157CDE /* MarvelHeroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHeroPresenter.swift; sourceTree = "<group>"; };
-		F25E43D92492C8D300157CDE /* MarvelHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHeroViewController.swift; sourceTree = "<group>"; };
-		F25E43DA2492C8D300157CDE /* MarveoHeroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarveoHeroViewController.xib; sourceTree = "<group>"; };
 		F25E43DE2492D59400157CDE /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F268BE9B24978A7B00680004 /* MarvelHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHeroViewController.swift; sourceTree = "<group>"; };
+		F268BE9C24978A7B00680004 /* MarvelHeroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarvelHeroViewController.xib; sourceTree = "<group>"; };
 		F2A568EA248E881E00779988 /* ComixCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComixCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A568ED248E881E00779988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A568EF248E881E00779988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		F25E43DD2492C8E800157CDE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F25E43D92492C8D300157CDE /* MarvelHeroViewController.swift */,
-				F25E43DA2492C8D300157CDE /* MarveoHeroViewController.xib */,
+				F268BE9B24978A7B00680004 /* MarvelHeroViewController.swift */,
+				F268BE9C24978A7B00680004 /* MarvelHeroViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,8 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A568FA248E882000779988 /* LaunchScreen.storyboard in Resources */,
-				F25E43DC2492C8D300157CDE /* MarveoHeroViewController.xib in Resources */,
 				F2A568F7248E882000779988 /* Assets.xcassets in Resources */,
+				F268BE9E24978A7B00680004 /* MarvelHeroViewController.xib in Resources */,
 				F2A568F5248E881E00779988 /* Main.storyboard in Resources */,
 				F2A56918248ECBC600779988 /* MainViewController.xib in Resources */,
 			);
@@ -300,9 +300,9 @@
 				F2A568EE248E881E00779988 /* AppDelegate.swift in Sources */,
 				F2A568F0248E881E00779988 /* SceneDelegate.swift in Sources */,
 				F2A56910248E886100779988 /* Marvel.swift in Sources */,
+				F268BE9D24978A7B00680004 /* MarvelHeroViewController.swift in Sources */,
 				F2A5691A248ECE6700779988 /* MarvelModuleBuilder.swift in Sources */,
 				F25E43D32492262300157CDE /* NetworkService.swift in Sources */,
-				F25E43DB2492C8D300157CDE /* MarvelHeroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

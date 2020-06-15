@@ -1,20 +1,16 @@
 //
-//  MarveoHeroViewController.swift
+//  MarvelHeroViewController.swift
 //  ComixCards
 //
-//  Created by Nikolas Omelianov on 11.06.2020.
+//  Created by Nikolas Omelianov on 15.06.2020.
 //  Copyright © 2020 Nikolas Omelianov. All rights reserved.
 //
 
 import UIKit
 
-class MarvelHeroViewController: UIViewController {
+class MarvelHeroViewController: UIViewController, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!{
-      didSet {
-        print("tableView is set")
-      }
-    }
+    @IBOutlet weak var tableView: UITableView!
     var presenter: MarvelHeroViewPresenterProtocol!
     
     override func viewDidLoad() {
@@ -48,3 +44,4 @@ extension MarvelHeroViewController: UITableViewDataSource {
     
     
 }
+
